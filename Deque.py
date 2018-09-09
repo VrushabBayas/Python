@@ -26,8 +26,6 @@ class Deque(object):
 if __name__ == "__main__":
     dq = Deque()
     print(dq.isEmpty())
-    # q.enqueue(True)
     dq.addFront("Vrushab Bayas")
     dq.addRear(1)
     print(dq.removeRear())
-    # print(q.size())

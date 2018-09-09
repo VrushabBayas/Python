@@ -19,8 +19,6 @@ class Queue(object):
 if __name__ == "__main__":
     q = Queue()
     print(q.isEmpty())
-    # q.enqueue(True)
     q.enqueue("Vrushab Bayas")
     q.enqueue(1)
     print(q.dequeue())
-    # print(q.size())
